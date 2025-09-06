@@ -459,26 +459,36 @@
         .social-links {
             display: flex;
             justify-content: center;
-            gap: 20px;
+            gap: 15px;
             margin: 30px 0;
         }
         
         .social-links a {
-            width: 40px;
-            height: 40px;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
+            width: 50px; 
+            height: 50px;
+            border-radius: 50%; /* Makes circle */
             color: white;
+            font-size: 24px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
             text-decoration: none;
-            transition: var(--transition);
         }
         
+        /* Brand colors */
+        .social-links a.facebook { background: #1877f2; }
+        .social-links a.telegram { background: #0088cc; }
+        .social-links a.instagram { 
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        }
+        .social-links a.twitter { background: #1da1f2; }
+        .social-links a.tiktok { background: black; }
+        
+        /* Hover effect - scale and shadow */
         .social-links a:hover {
-            background: var(--secondary);
-            transform: translateY(-5px);
+            transform: scale(1.1);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
         }
         
         .copyright {
@@ -555,6 +565,10 @@
             .section-title h2 {
                 font-size: 2rem;
             }
+            
+            .social-links {
+                flex-wrap: wrap;
+            }
         }
     </style>
 </head>
@@ -562,7 +576,7 @@
     <!-- Header -->
     <header>
         <div class="container header-container">
-            <div class="logo">Raya<span>Labata</span></div>
+            <div class="logo">Raya<span> Gudisa</span></div>
             <div class="menu-toggle">
                 <i class="fas fa-bars"></i>
             </div>
@@ -632,7 +646,7 @@
                 <div class="timeline-item">
                     <div class="timeline-content">
                         <div class="timeline-date">2022 - 2023</div>
-                        <h3 class="timeline-title">BSc in Computer Engineering</h3>
+                        <h3 class="timeline-title">BSc in ELECTRICAL and Computer Engineering</h3>
                         <p>Adama science and Technology University</p>
                         <p>Focus on Networking, Telecommunications, and System Architecture. Graduated with Distinction.</p>
                     </div>
@@ -868,10 +882,30 @@
         <div class="container">
             <div class="logo">Raya<span>Labata</span></div>
             <div class="social-links">
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-telegram"></i></a>
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/raya.gudisa.9" target="_blank" rel="noopener noreferrer" class="facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <!-- Telegram -->
+                <a href="https://t.me/raajituu" target="_blank" rel="noopener noreferrer" class="telegram">
+                    <i class="fab fa-telegram-plane"></i>
+                </a>
+
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/raya_gudisa" target="_blank" rel="noopener noreferrer" class="instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <!-- Twitter -->
+                <a href="https://x.com/raya_gudisa" target="_blank" rel="noopener noreferrer" class="twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+
+                <!-- TikTok -->
+                <a href="https://www.tiktok.com/@raji2_g" target="_blank" rel="noopener noreferrer" class="tiktok">
+                    <i class="fab fa-tiktok"></i>
+                </a>
             </div>
             <p class="copyright">&copy; 2025 Raya Gudisa Labata. All Rights Reserved.</p>
         </div>
