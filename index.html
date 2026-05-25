@@ -1,0 +1,997 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Raya Gudisa Labata - Professional Network Engineer specializing in Cisco networking, cybersecurity, and cloud infrastructure.">
+    <meta name="keywords" content="Network Engineer, Cisco, CCNA, Cloud Infrastructure, Cybersecurity, Ethiopia">
+    <meta name="author" content="Raya Gudisa Labata">
+
+    <title>Raya Gudisa Labata | Network Engineer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #0f172a;
+            --secondary: #2563eb;
+            --accent: #f97316;
+            --light: #f8fafc;
+            --dark: #020617;
+            --text: #1e293b;
+            --text-light: #64748b;
+            --card-bg: #ffffff;
+            --border: #e2e8f0;
+            --shadow: 0 10px 30px rgba(0,0,0,0.08);
+            --radius: 18px;
+            --transition: all 0.35s ease;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script>
+var typed = new Typed(".typing", {
+    strings: [
+        "Network Engineer",
+        "Cisco Specialist",
+        "Cloud Infrastructure Expert",
+        "Cybersecurity Enthusiast"
+    ],
+    typeSpeed: 60,
+    backSpeed: 40,
+    loop: true
+});
+</script>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--light);
+            color: var(--text);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--secondary);
+            border-radius: 999px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #e2e8f0;
+        }
+
+        .container {
+            width: min(1200px, 92%);
+            margin: auto;
+        }
+
+        section {
+            padding: 100px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-title h2 {
+            font-size: clamp(2rem, 5vw, 3rem);
+            color: var(--primary);
+            margin-bottom: 15px;
+            font-weight: 800;
+        }
+
+        .section-title p {
+            color: var(--text-light);
+            max-width: 650px;
+            margin: auto;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 14px 34px;
+            border-radius: 999px;
+            text-decoration: none;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            transition: var(--transition);
+            background: var(--secondary);
+            color: white;
+            box-shadow: 0 10px 25px rgba(37,99,235,0.25);
+        }
+
+        .btn:hover {
+            transform: translateY(-4px);
+            background: #1d4ed8;
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 2px solid white;
+            box-shadow: none;
+        }
+
+        .btn-outline:hover {
+            background: white;
+            color: var(--primary);
+        }
+
+        header {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            background: rgba(15, 23, 42, 0.85);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 18px 0;
+        }
+
+        .logo {
+            color: white;
+            font-size: 1.7rem;
+            font-weight: 800;
+        }
+
+        .logo span {
+            color: var(--accent);
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+        }
+
+        nav a:hover {
+            color: var(--accent);
+        }
+
+        .menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            padding-top: 120px;
+            background:
+                linear-gradient(rgba(15,23,42,0.82), rgba(15,23,42,0.9)),
+                url('ChatGPT Image May 4, 2026, 08_12_00 PM.png');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .hero-content {
+            max-width: 850px;
+        }
+
+        .hero h1 {
+            font-size: clamp(3rem, 7vw, 5rem);
+            line-height: 1.1;
+            margin-bottom: 20px;
+            font-weight: 800;
+        }
+
+        .hero p {
+            font-size: 1.15rem;
+            opacity: 0.92;
+            margin-bottom: 15px;
+        }
+
+        .hero-buttons {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 18px;
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 50px;
+            align-items: center;
+        }
+
+        .about-image {
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+        }
+
+        .about-image img {
+            width: 100%;
+            display: block;
+            transition: var(--transition);
+        }
+
+        .about-image:hover img {
+            transform: scale(1.05);
+        }
+
+        .about-content h3 {
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+
+        .about-content p {
+            margin-bottom: 18px;
+            color: var(--text-light);
+        }
+
+        .timeline {
+            position: relative;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            width: 4px;
+            background: var(--secondary);
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .timeline-item {
+            position: relative;
+            width: 50%;
+            padding: 20px 40px;
+        }
+
+        .timeline-item:nth-child(odd) {
+            left: 0;
+        }
+
+        .timeline-item:nth-child(even) {
+            left: 50%;
+        }
+
+        .timeline-content,
+        .card,
+        .cert-card {
+            background: white;
+            border-radius: var(--radius);
+            padding: 25px;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border);
+            transition: var(--transition);
+        }
+
+        .timeline-content:hover,
+        .card:hover,
+        .cert-card:hover {
+            transform: translateY(-8px);
+        }
+
+        .timeline-date {
+            color: var(--secondary);
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .timeline-title {
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+
+        .cards-grid,
+        .cert-grid,
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .card-image {
+            height: 220px;
+            overflow: hidden;
+            border-radius: 14px;
+            margin-bottom: 20px;
+        }
+
+        .card-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+
+        .card:hover .card-image img {
+            transform: scale(1.08);
+        }
+
+        .card h3,
+        .cert-card h3 {
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+
+        .card p,
+        .cert-card p {
+            color: var(--text-light);
+        }
+
+        .skills-section {
+            background: white;
+        }
+
+        .skill-box {
+            background: white;
+            border-radius: var(--radius);
+            padding: 25px;
+            box-shadow: var(--shadow);
+        }
+
+        .skill-box h3 {
+            margin-bottom: 25px;
+            color: var(--primary);
+        }
+
+        .skill-item {
+            margin-bottom: 20px;
+        }
+
+        .skill-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .skill-bar {
+            height: 12px;
+            background: #e2e8f0;
+            border-radius: 999px;
+            overflow: hidden;
+        }
+
+        .skill-progress {
+            height: 100%;
+            border-radius: 999px;
+            background: linear-gradient(90deg, var(--secondary), var(--accent));
+        }
+
+        .cert-card i {
+            font-size: 2.8rem;
+            color: var(--secondary);
+            margin-bottom: 20px;
+        }
+
+        .contact-wrapper {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 40px;
+        }
+
+        .contact-box {
+            background: white;
+            padding: 35px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+        }
+
+        .contact-item {
+            display: flex;
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        .contact-icon {
+            min-width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: var(--secondary);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: var(--primary);
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 14px 16px;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            margin-bottom: 20px;
+            transition: var(--transition);
+            font-size: 1rem;
+        }
+
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            outline: none;
+            border-color: var(--secondary);
+            box-shadow: 0 0 0 4px rgba(37,99,235,0.15);
+        }
+
+        footer {
+            background: var(--dark);
+            color: white;
+            padding: 60px 0 30px;
+            text-align: center;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 30px 0;
+        }
+
+        .social-links a {
+            width: 55px;
+            height: 55px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            color: white;
+            font-size: 1.3rem;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .social-links a:hover {
+            transform: translateY(-6px) scale(1.08);
+        }
+
+        .facebook { background: #1877f2; }
+        .telegram { background: #0088cc; }
+        .instagram {
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        }
+        .twitter { background: #1da1f2; }
+        .tiktok { background: black; }
+
+        .copyright {
+            opacity: 0.8;
+            margin-top: 20px;
+        }
+
+        .fade-up {
+            animation: fadeUp 1s ease;
+        }
+
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 992px) {
+            .timeline::before {
+                left: 20px;
+            }
+
+            .timeline-item {
+                width: 100%;
+                left: 0 !important;
+                padding-left: 60px;
+                padding-right: 0;
+            }
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background: rgba(15,23,42,0.97);
+                max-height: 0;
+                overflow: hidden;
+                transition: var(--transition);
+            }
+
+            nav.active {
+                max-height: 500px;
+            }
+
+            nav ul {
+                flex-direction: column;
+                padding: 25px;
+                text-align: center;
+            }
+
+            .menu-toggle {
+                display: block;
+            }
+
+            .hero-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script>
+ScrollReveal().reveal('.fade-up', {
+    distance: '60px',
+    duration: 1500,
+    delay: 200,
+    reset: false
+});
+</script>
+<body>
+
+<header>
+    <div class="container header-container">
+        <div class="logo">Raya<span>Labata</span></div>
+
+        <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="hero fade-up" id="home">
+    <div class="container hero-content">
+       <h1>
+  Hi, I'm Raya Gudisa Labata 👋<br>
+  <span class="typing" style="color:#f97316;"></span>
+</h1>
+
+        <p>
+            Modern Network Engineer specializing in enterprise infrastructure,
+            cybersecurity, Cisco networking, and scalable cloud systems.
+        </p>
+
+        <p>
+            CCNA Certified • Network Security • Cloud Infrastructure • IT Solutions
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#contact" class="btn">
+                <i class="fas fa-paper-plane"></i>
+                Contact Me
+            </a>
+
+            <a href="#experience" class="btn btn-outline">
+                <i class="fas fa-briefcase"></i>
+                View Experience
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container">
+        <div class="section-title fade-up">
+            <h2>About Me</h2>
+            <p>
+                Passionate about building secure, scalable, and high-performance network systems.
+            </p>
+        </div>
+
+        <div class="about-grid">
+            <div class="about-image fade-up">
+                <img src="raya.jpg"
+                     alt="Raya Gudisa Labata - Network Engineer"
+                     loading="lazy">
+            </div>
+
+            <div class="about-content fade-up">
+                <h3>Hello! I'm Raya Gudisa Labata</h3>
+
+                <p>
+                    I am a dedicated Network Engineer with strong expertise in designing,
+                    implementing, and maintaining enterprise-level network infrastructures.
+                </p>
+
+                <p>
+                    My experience includes Cisco technologies, cloud networking,
+                    firewall configuration, VPN deployment, and network security optimization.
+                </p>
+
+                <p>
+                    I enjoy solving complex infrastructure problems, learning emerging technologies,
+                    and helping organizations build reliable IT systems.
+                </p>
+
+                <a href="#contact" class="btn">
+                    <i class="fas fa-envelope"></i>
+                    Let's Connect
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="education">
+    <div class="container">
+        <div class="section-title fade-up">
+            <h2>Education & Internship</h2>
+        </div>
+
+        <div class="timeline">
+            <div class="timeline-item fade-up">
+                <div class="timeline-content">
+                    <div class="timeline-date">2018 - 2023</div>
+                    <h3 class="timeline-title">BSc in Electrical & Computer Engineering</h3>
+                    <p>Adama Science and Technology University, Ethiopia</p>
+                    <p>
+                        Specialized in advanced networking, network security,
+                        telecommunications, and cloud infrastructure.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item fade-up">
+                <div class="timeline-content">
+                    <div class="timeline-date">2023</div>
+                    <h3 class="timeline-title">Cisco Networking Intern</h3>
+                    <p>Ethio Telecom</p>
+                    <p>
+                        Hands-on experience with enterprise networking devices,
+                        routing, switching, and infrastructure management.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="experience">
+    <div class="container">
+        <div class="section-title fade-up">
+            <h2>Professional Experience</h2>
+            <p>Building modern enterprise-grade infrastructure and networking solutions.</p>
+        </div>
+
+        <div class="cards-grid">
+            <div class="card fade-up">
+                <div class="card-image">
+                    <img src="ChatGPT Image May 4, 2026, 08_12_00 PM.png" alt="Senior Network Engineer" loading="lazy">
+                </div>
+
+                <h3>Senior Network Engineer</h3>
+                <p><strong>Ethio Telecom</strong> • 2024 - Present</p>
+                <p>
+                    Designing and implementing enterprise network solutions,
+                    optimizing network performance, and strengthening cybersecurity.
+                </p>
+            </div>
+
+            <div class="card fade-up">
+                <div class="card-image">
+                    <img src="photo_2025-09-05_14-21-59.jpg" alt="IT Infrastructure Specialist" loading="lazy">
+                </div>
+
+                <h3>IT Infrastructure Specialist</h3>
+                <p><strong>Ministry of Revenues</strong> • 2024 - 2025</p>
+                <p>
+                    Managed infrastructure systems, implemented security policies,
+                    and maintained high availability for enterprise services.
+                </p>
+            </div>
+
+            <div class="card fade-up">
+                <div class="card-image">
+                    <img src="aaa.jpg" alt="Network Administrator" loading="lazy">
+                </div>
+
+                <h3>Network Administrator</h3>
+                <p><strong>Ethiopian Ministry of Revenues</strong> • 2023 - 2025</p>
+                <p>
+                    Provided infrastructure support, troubleshooting,
+                    system optimization, and network maintenance.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="skills-section" id="skills">
+    <div class="container">
+        <div class="section-title fade-up">
+            <h2>Technical Skills</h2>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-box fade-up">
+                <h3>Networking Skills</h3>
+
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Network Design & Implementation</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width:95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Cisco Technologies</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width:90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Network Security</span>
+                        <span>92%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width:92%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-box fade-up">
+                <h3>Infrastructure Skills</h3>
+
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Cloud Networking</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width:85%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>VPN Technologies</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width:90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Firewall Configuration</span>
+                        <span>88%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width:88%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="certifications">
+    <div class="container">
+        <div class="section-title fade-up">
+            <h2>Certifications</h2>
+        </div>
+
+        <div class="cert-grid">
+            <div class="cert-card fade-up">
+                <i class="fab fa-cisco"></i>
+                <h3>CCNA - Cisco Certified Network Associate</h3>
+                <p>Cisco Systems • 2024</p>
+            </div>
+
+            <div class="cert-card fade-up">
+                <i class="fas fa-shield-alt"></i>
+                <h3>CompTIA Security+</h3>
+                <p>CompTIA • 2024</p>
+            </div>
+
+            <div class="cert-card fade-up">
+                <i class="fas fa-cloud"></i>
+                <h3>AWS Certified Solutions Architect</h3>
+                <p>Amazon Web Services • 2024</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <div class="section-title fade-up">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out for collaboration, networking projects, or opportunities.</p>
+        </div>
+
+        <div class="contact-wrapper">
+            <div class="contact-box fade-up">
+                <h3>Let's Connect 🚀</h3>
+
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Addis Ababa, Ethiopia</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div>
+                        <h4>Email</h4>
+                        <p>raayyaaguddisaa@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+251 900000000</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-box contact-form fade-up">
+                <form>
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+
+                    <button type="submit" class="btn">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="logo">Raya<span>Labata</span></div>
+
+        <div class="social-links">
+            <a href="https://www.facebook.com/raya.gudisa.9" target="_blank" class="facebook" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+
+            <a href="https://t.me/raajituu" target="_blank" class="telegram" aria-label="Telegram">
+                <i class="fab fa-telegram-plane"></i>
+            </a>
+
+            <a href="https://www.instagram.com/raya_gudisa" target="_blank" class="instagram" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="https://x.com/raya_gudisa" target="_blank" class="twitter" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
+
+            <a href="https://www.tiktok.com/@raji2_gu" target="_blank" class="tiktok" aria-label="TikTok">
+                <i class="fab fa-tiktok"></i>
+            </a>
+        </div>
+
+        <p class="copyright">
+            © 2026 Raya Gudisa Labata • Built with passion & modern web technologies.
+        </p>
+    </div>
+</footer>
+
+<script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('nav');
+
+    menuToggle.addEventListener('click', () => {
+        nav.classList.toggle('active');
+
+        const expanded = menuToggle.getAttribute('aria-expanded') === 'true';
+        menuToggle.setAttribute('aria-expanded', !expanded);
+    });
+
+    const navLinks = document.querySelectorAll('nav a');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            nav.classList.remove('active');
+            menuToggle.setAttribute('aria-expanded', 'false');
+        });
+    });
+
+    const contactForm = document.querySelector('.contact-form form');
+
+    contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        alert('✅ Thank you! Your message has been submitted successfully.');
+        contactForm.reset();
+    });
+</script>
+
+</body>
+</html>
+```
+
+
